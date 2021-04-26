@@ -1,0 +1,16 @@
+{
+  "name": "@jserwang/eslint-config-monorepo",
+  "version": "0.1.0",
+  "repository": "https://github.com/JserWang/eslint-config.git",
+  "author": "JserWang <jserwang@gmail.com> (https://github.com/JserWang)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "lerna": "^4.0.0",
+    "@jserwang/eslint-config": "*"
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
+}

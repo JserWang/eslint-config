@@ -1,0 +1,29 @@
+{
+  "name": "@jserwang/eslint-config-vue",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "author": "JserWang <jserwang@gmail.com> (https://github.com/JserWang)",
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "repository": "https://github.com/JserWang/eslint-config.git",
+  "scripts": {
+    "lint": "eslint . --config=index.js --fix"
+  },
+  "dependencies": {
+    "@jserwang/eslint-config-ts": "^0.1.0",
+    "eslint-plugin-vue": "7.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.25.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.25.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
