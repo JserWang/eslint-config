@@ -2,7 +2,7 @@ module.exports = {
   env: {
     es6: true,
     browser: true,
-    node: true,
+    node: true
   },
   extends: [
     'standard',
@@ -10,13 +10,13 @@ module.exports = {
     'plugin:import/warnings',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
-    'plugin:yml/standard',
+    'plugin:yml/standard'
   ],
   plugins: ['html', 'unicorn'],
   settings: {
     'import/resolver': {
-      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] },
-    },
+      node: { extensions: ['.js', '.mjs', '.ts', '.d.ts'] }
+    }
   },
   overrides: [
     {
@@ -25,8 +25,8 @@ module.exports = {
       rules: {
         'quotes': ['error', 'double'],
         'quote-props': ['error', 'always'],
-        'comma-dangle': ['error', 'never'],
-      },
+        'comma-dangle': ['error', 'never']
+      }
     },
     {
       // https://docs.npmjs.com/cli/v7/configuring-npm/package-json
@@ -67,16 +67,16 @@ module.exports = {
               'cpu',
               'private',
               'publishConfig',
-              'workspaces',
-            ],
+              'workspaces'
+            ]
           },
           {
             pathPattern: '^(?:dev|peer|optional|bundled)?[Dd]ependencies$',
-            order: { type: 'asc' },
-          },
-        ],
-      },
-    },
+            order: { type: 'asc' }
+          }
+        ]
+      }
+    }
   ],
   rules: {
     // import
@@ -109,7 +109,7 @@ module.exports = {
       'DebuggerStatement',
       'ForInStatement',
       'LabeledStatement',
-      'WithStatement',
+      'WithStatement'
     ],
     'object-curly-spacing': ['error', 'always'],
     'no-return-await': 'off',
@@ -122,23 +122,23 @@ module.exports = {
       'error',
       {
         destructuring: 'any',
-        ignoreReadBeforeAssign: true,
-      },
+        ignoreReadBeforeAssign: true
+      }
     ],
     'prefer-arrow-callback': [
       'error',
       {
         allowNamedFunctions: false,
-        allowUnboundThis: true,
-      },
+        allowUnboundThis: true
+      }
     ],
     'object-shorthand': [
       'error',
       'always',
       {
         ignoreConstructors: false,
-        avoidQuotes: true,
-      },
+        avoidQuotes: true
+      }
     ],
     'prefer-rest-params': 'error',
     'prefer-spread': 'error',
@@ -149,9 +149,9 @@ module.exports = {
       'error',
       {
         array: true,
-        object: true,
+        object: true
       },
-      { enforceForRenamedProperties: false },
+      { enforceForRenamedProperties: false }
     ],
 
     // best-practice
@@ -199,6 +199,6 @@ module.exports = {
     'unicorn/throw-new-error': 'error',
 
     'no-use-before-define': ['error', { functions: false, classes: false, variables: true }],
-    'eslint-comments/disable-enable-pair': 'off',
-  },
+    'eslint-comments/disable-enable-pair': 'off'
+  }
 }

@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    '@jserwang/eslint-config-vue',
-  ],
+    '@jserwang/eslint-config-vue'
+  ]
 }

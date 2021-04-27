@@ -4,7 +4,7 @@ const basic = require('@jserwang/eslint-config-basic')
 module.exports = {
   extends: [
     '@jserwang/eslint-config-basic',
-    'plugin:@typescript-eslint/recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   overrides: basic.overrides,
   rules: {
@@ -32,6 +32,6 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/ban-ts-comment': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
-    '@typescript-eslint/ban-types': 'off',
-  },
+    '@typescript-eslint/ban-types': 'off'
+  }
 }
