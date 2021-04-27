@@ -94,7 +94,6 @@ module.exports = {
     'no-unused-vars': 'warn',
     'no-param-reassign': 'off',
     'array-bracket-spacing': ['error', 'never'],
-    'brace-style': ['error', 'stroustrup', { allowSingleLine: true }],
     'block-spacing': ['error', 'always'],
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
