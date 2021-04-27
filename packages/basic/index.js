@@ -97,7 +97,6 @@ module.exports = {
     'block-spacing': ['error', 'always'],
     'comma-spacing': ['error', { before: false, after: true }],
     'comma-style': ['error', 'last'],
-    'comma-dangle': ['error', 'always-multiline'],
     'no-constant-condition': 'error',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
