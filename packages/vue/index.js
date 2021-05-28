@@ -19,7 +19,7 @@ module.exports = {
     'vue/html-self-closing': 'off',
     'vue/no-v-html': 'off',
     'vue/html-indent': ['error', 2],
-    'vue/script-indent': ['error', 2],
+    'vue/script-indent': 'off',
     'vue/html-quotes': ['error', 'double', { avoidEscape: false }]
   }
 }

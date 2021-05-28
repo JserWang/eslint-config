@@ -14,7 +14,7 @@
     "lint": "eslint . --config=index.js --fix"
   },
   "dependencies": {
-    "eslint-config-standard": "^16.0.2",
+    "eslint-config-standard": "^16.0.3",
     "eslint-plugin-eslint-comments": "^3.2.0",
     "eslint-plugin-html": "^6.1.2",
     "eslint-plugin-import": "^2.23.3",
@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "eslint": "^7.27.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   },
   "peerDependencies": {
     "eslint": ">=7.27.0"

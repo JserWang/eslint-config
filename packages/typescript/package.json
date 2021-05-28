@@ -15,16 +15,16 @@
   },
   "dependencies": {
     "@jserwang/eslint-config-basic": "^0.1.4",
-    "@typescript-eslint/eslint-plugin": "^4.24.0",
-    "@typescript-eslint/parser": "^4.24.0"
+    "@typescript-eslint/eslint-plugin": "^4.25.0",
+    "@typescript-eslint/parser": "^4.25.0"
   },
   "devDependencies": {
     "eslint": "^7.27.0",
-    "typescript": "^4.2.4"
+    "typescript": "^4.3.2"
   },
   "peerDependencies": {
     "eslint": ">=7.27.0",
-    "typescript": ">=4.2.4"
+    "typescript": ">=4.3.2"
   },
   "publishConfig": {
     "access": "public"
