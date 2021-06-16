@@ -10,18 +10,15 @@
   ],
   "main": "index.js",
   "repository": "https://github.com/JserWang/eslint-config.git",
-  "scripts": {
-    "lint": "eslint . --config=index.js --fix"
-  },
   "dependencies": {
     "@jserwang/eslint-config-vue": "^0.1.5"
   },
   "devDependencies": {
-    "eslint": "^7.27.0",
+    "eslint": "^7.28.0",
     "typescript": "^4.3.2"
   },
   "peerDependencies": {
-    "eslint": ">=7.27.0"
+    "eslint": ">=7.28.0"
   },
   "publishConfig": {
     "access": "public"
