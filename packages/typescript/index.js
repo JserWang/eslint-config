@@ -13,6 +13,8 @@ module.exports = {
     '@typescript-eslint/semi': ['error', 'never'],
     '@typescript-eslint/indent': ['error', 2],
     '@typescript-eslint/member-delimiter-style': ['error', { multiline: { delimiter: 'none' } }],
+    // allow const self = this
+    '@typescript-eslint/no-this-alias': ['error', { allowedNames: ['self'] }],
     '@typescript-eslint/type-annotation-spacing': ['error', {}],
 
     'no-undef': 'off',

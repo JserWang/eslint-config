@@ -12,7 +12,7 @@
   "repository": "https://github.com/JserWang/eslint-config.git",
   "dependencies": {
     "@jserwang/eslint-config-ts": "^0.1.6",
-    "eslint-plugin-vue": "7.11.1"
+    "eslint-plugin-vue": "7.12.1"
   },
   "devDependencies": {
     "eslint": "^7.28.0"
