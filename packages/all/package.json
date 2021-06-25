@@ -1,6 +1,6 @@
 {
   "name": "@jserwang/eslint-config",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": "https://github.com/JserWang/eslint-config.git",
   "dependencies": {
-    "@jserwang/eslint-config-vue": "^0.1.6"
+    "@jserwang/eslint-config-vue": "^0.1.7"
   },
   "devDependencies": {
     "eslint": "^7.28.0",
