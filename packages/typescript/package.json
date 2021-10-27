@@ -1,6 +1,6 @@
 {
   "name": "@jserwang/eslint-config-ts",
-  "version": "0.1.7",
+  "version": "0.2.0",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -11,7 +11,7 @@
   "main": "index.js",
   "repository": "https://github.com/JserWang/eslint-config.git",
   "dependencies": {
-    "@jserwang/eslint-config-basic": "^0.1.6",
+    "@jserwang/eslint-config-basic": "^0.2.0",
     "@typescript-eslint/eslint-plugin": "^5.2.0",
     "@typescript-eslint/parser": "^5.2.0"
   },
